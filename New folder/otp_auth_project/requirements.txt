@@ -1,0 +1,8 @@
+Django>=3.2
+djangorestframework
+djangorestframework-simplejwt
+python-dotenv
+gunicorn
+dj-database-url
+whitenoise
+psycopg2-binary

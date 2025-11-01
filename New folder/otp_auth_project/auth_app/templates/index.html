@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>OTP Auth Demo</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OTP Authentication Demo</h1>
+
+    <section id="register">
+      <h2>Register</h2>
+      <input id="reg_email" placeholder="Email (optional)" />
+      <input id="reg_mobile" placeholder="Mobile (optional)" />
+      <button id="btn_register">Register</button>
+      <div id="register_result"></div>
+    </section>
+
+    <section id="login">
+      <h2>Login (request OTP)</h2>
+      <input id="login_email" placeholder="Email (optional)" />
+      <input id="login_mobile" placeholder="Mobile (optional)" />
+      <button id="btn_login">Send OTP</button>
+      <div id="login_result"></div>
+    </section>
+
+    <section id="verify">
+      <h2>Verify OTP</h2>
+      <input id="verify_email" placeholder="Email (if used)" />
+      <input id="verify_mobile" placeholder="Mobile (if used)" />
+      <input id="verify_code" placeholder="OTP code" />
+      <button id="btn_verify">Verify OTP</button>
+      <div id="verify_result"></div>
+    </section>
+
+    <section id="profile">
+      <h2>Profile (protected)</h2>
+      <button id="btn_profile">Get Profile</button>
+      <div id="profile_result"></div>
+    </section>
+
+    <p>Open browser console for fetch debugging.</p>
+  </div>
+<script src="/static/app.js"></script>
+</body>
+</html>
