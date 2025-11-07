@@ -1,0 +1,11 @@
+streamlit
+opencv-python
+mediapipe
+pyttsx3
+gTTS
+transformers
+SpeechRecognition
+torch
+numpy
+pydub
+soundfile
